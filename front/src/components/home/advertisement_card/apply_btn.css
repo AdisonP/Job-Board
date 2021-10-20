@@ -1,0 +1,39 @@
+.apply_button {
+	color: rgb(43, 43, 43) !important;
+	text-transform: uppercase !important;
+	font-size: 1rem !important;
+	letter-spacing: 0.15rem !important;
+	transition: all 0.3s !important;
+	position: relative !important;
+	margin-left : 86% !important;
+	width : 100px !important;
+	overflow: hidden !important;
+	z-index: 1 !important;
+}
+.apply_button:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+    background-color: #F0DDBC;
+	z-index: -2;
+}
+.apply_button:before {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 0%;
+	height: 100%;
+	background-color: #ffcc748a;
+	transition: all 0.3s;
+	z-index: -1;
+}
+.apply_button:hover {
+	color: #fff;
+}
+.apply_button:hover:before {
+	width: 100%;
+}

@@ -1,0 +1,6 @@
+.UserCard {
+    display : flex;
+    flex-wrap: wrap;
+    color : white;
+}   
+

@@ -1,0 +1,11 @@
+.advlist {
+    margin-left : 100%;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid black;
+    cursor: pointer;
+}
+ 
+div.spoiler div.contenuSpoiler {
+    display: none;
+}

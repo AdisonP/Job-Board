@@ -1,0 +1,53 @@
+.applied_zone {
+    margin : auto;
+    padding : 3%;
+    display : flex;
+    flex-wrap: wrap;
+    color : white;
+}
+
+.carditem {
+   margin-left : 5%; 
+   margin-right : 5%; 
+   background-color:rgb(43, 43, 43) !important;
+}
+
+.seeMore {
+	color: rgb(43, 43, 43);
+	text-transform: uppercase;
+	font-size: 15px !important;
+	letter-spacing: 0.15rem;
+	transition: all 0.3s !important;
+	position: relative;
+    width : 150px;
+    padding: 0 !important;
+	overflow: hidden;
+	z-index: 1;
+}
+.seeMore:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+    background-color: #F0DDBC;
+	z-index: -2;
+}
+.seeMore:before {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 0%;
+	height: 100%;
+	background-color: #ffcc748a;
+	transition: all 0.3s;
+	z-index: -1;
+}
+.seeMore:hover {
+	color: #fff;
+}
+.seeMore:hover:before {
+	width: 100%;
+}

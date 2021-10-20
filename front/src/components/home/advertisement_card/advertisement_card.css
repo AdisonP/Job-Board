@@ -1,0 +1,42 @@
+.itemCard{
+    display: flex;
+    justify-content: space-between;
+}
+
+.itemCardContent {
+    width: 90%;
+    margin: 2%;
+}
+
+.itemCardPicture {
+    margin : 2%;
+}
+
+.cardBody {
+    margin: auto;
+    background-color: rgb(15, 15, 15);
+    width: 90%;
+    color: white;
+    padding: 1%;
+}
+
+.description {
+    margin: 3%;
+}
+
+.more {
+    /*background-color: #F0DDBC;*/
+    color : white !important;
+    background-color: transparent;
+    border : solid 2px white;
+    border-radius: 1px;
+    padding: 1%;
+    width : 100px;
+    margin-left : 85%;
+}
+
+@media screen and (max-width : 849px) {
+    .more {
+        margin-left: auto;
+    }
+}

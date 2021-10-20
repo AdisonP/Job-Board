@@ -1,0 +1,28 @@
+.advlist {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    position: relative;
+
+}
+
+.advlist > * {
+    margin: 10px;
+}
+
+.card {
+    width: 33%;
+}
+
+.collapse {
+    text-align: justify;
+}
+
+
+@media screen and (max-width: 720px) {
+    .advlist {
+        flex-wrap: wrap;
+    }
+}

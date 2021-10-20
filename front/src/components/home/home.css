@@ -1,0 +1,25 @@
+header{
+    background-color: rgb(34, 34, 34) !important;
+    width: 100%;
+    height: 80vh;
+    padding: 5%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.welcome-div {
+    border : solid 2px;
+    width: 100%;
+    height: 100%;
+    padding: 13%;
+    color : white;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+}
+
+.welcome-div > h1 {
+    margin: 0;
+    font-size: 50px;
+}

@@ -1,0 +1,16 @@
+.NavAdmin {
+    color: white;
+    text-decoration: none;
+    
+}
+
+.NavAdmin > ul {
+    list-style:none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.NavAdmin > ul > li {
+    text-decoration: none;
+    margin : 2%;
+}
